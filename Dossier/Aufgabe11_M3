@@ -1,0 +1,59 @@
+Aufgabe 11:
+
+1) Probleme des Speicherns in einfachen Dateien:
+
+Das Speichern von Daten in einfachen Dateien kann verschiedene Probleme verursachen,
+insbesondere in Anwendungen mit wachsenden Datenmengen und der Notwendigkeit
+von strukturierten Abfragen. Einige der Hauptprobleme sind:
+
+- Fehlende Datenintegrität und Redundanzkontrolle:
+Ohne eine Datenbank gibt es keine Mechanismen zur Gewährleistung der Konsistenz.
+Duplikate, inkonsistente Daten oder fehlende Verweise können leicht auftreten.
+
+- Eingeschränkte Abfrage- und Analysefunktionen:
+Daten in Dateien sind schwer abfragbar. Es fehlen die effizienten Such- und Filtermöglichkeiten, wie sie SQL bietet.
+
+- Schlechte Performance bei großen Datenmengen:
+Dateien sind bei wachsendem Datenvolumen nicht darauf ausgelegt, effiziente Such- und Speicheroperationen auszuführen.
+
+- Fehlende Mehrbenutzerfähigkeit:
+Ein gleichzeitiger Zugriff auf dieselben Dateien durch mehrere Nutzer oder Prozesse führt häufig zu Konflikten, da keine Sperrmechanismen existieren.
+
+- Keine Datensicherheit und Wiederherstellungsmechanismen:
+In Dateien gespeicherte Daten sind anfälliger für Datenverluste, da Sicherungskonzepte fehlen.
+
+
+2)b)
+Kontakt stellt Rückfrage:
+- 1:N (Ein Kontakt kann viele Rückfragen stellen;
+eine Rückfrage gehört zu genau einem Kontakt).
+
+Kontakt hat anrede:
+- N:1 (Ein Kontakt hat genau eine Anrede;
+eine Anrede kann von vielen Kontakten verwendet werden).
+
+Kontakt hat Adresse:
+- 1:N (Ein Kontakt kann mehrere Hausanschriften haben).
+
+Kontakt hat Rechnungsadresse:
+- 1:1 (Ein Kontakt hat genau eine Rechnungsadresse).
+
+Kontakt ist Kunde:
+- 1:1 (Ein Kontakt kann Kunde sein).
+
+Kontakt ist Zulieferer:
+- 1:1 (Ein Kontakt kann Zulieferer sein).
+
+
+
+2)c)
+- Primärschlüssel (unterstrichen):
+Kontakt: Kontakt-ID
+Rückfrage: Rückfragenummer
+
+
+
+- Fremdschlüssel (gestrichelte Unterstreichung):
+Rückfrage: KontaktID
+Kontakt: AnredeID
+Rechnungsadresse: KontaktID

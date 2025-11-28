@@ -1,0 +1,171 @@
+/* ===== 1) Grundstil für die ganze Seite ===== */
+body {
+    font-family: Arial, Helvetica, sans-serif; /* gut lesbar */
+    margin: auto;                                /* Standardabstände weg */
+    background: #f2f2f2;                      /* hellgrauer Hintergrund */
+    color: #222;                               /* dunkler Text */
+}
+
+/* Inhalt mittig begrenzen */
+main {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* ===== 2) Kopfbereich & Navigation ===== */
+.website-header {
+    background: #ffffff;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+#myImage{
+    height: 500px;
+    width: 900px;
+    border: 3px solid #834B45;
+    border-radius: 20px; /*Ecke */
+    margin-top: 20px;
+}
+
+.website-header img {
+
+    height: 50px;
+    border-radius: 10px;
+    vertical-align: middle;
+}
+header{
+    display: flex;
+    justify-content: space-between;/*space betwen icon and menu*/
+}
+
+#Header ul {
+    list-style: none;   /* Punkte weg */
+    padding: 10px 40px;
+    margin: 10px 0 0 0;
+}
+
+#Header a {
+    text-decoration: none;
+    color: #834B45;                 /* grünlicher Ton */
+    border: 1px solid #ccc;
+    padding: 6px 10px;
+    margin-right: 6px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+/* ===== 3) Überschriften & Abschnitte ===== */
+h1, h2 {
+    margin: 16px 0 8px 0;
+}
+
+section {
+    background: #ffffff;
+    border: 1px solid #ddd;
+    padding: 12px;
+    margin: 16px 0;
+}
+
+/* ===== 4) Tabelle „Speisen und Preise“ ===== */
+table {
+    width: auto;
+    border-collapse: collapse;   /* einheitliche Linien */
+    background: #fff;
+}
+
+
+caption {
+    text-align: left;
+    font-weight: bold;
+    padding: 8px 0;
+}
+
+th,td {
+    padding: 8px;
+    border: 1px solid #ccc;
+    vertical-align: top;
+    word-break: break-word;   /* lange Wörter umbrechen */
+}
+
+thead th {
+    background: #eee;
+    text-align: left;
+}
+
+#table_txt{
+    text-align: left;
+}
+
+
+/*  M2  gerichte Fotos */
+#gericht{
+    width: 50px;
+}
+
+/* Preise rechtsbündig Zweite td und Dritte*/
+td:nth-child(2),
+td:nth-child(3) {
+    text-align: right;
+    white-space: nowrap; /* 3,50€ bleibt zusammen */
+}
+
+/* ===== 5) Zahlen-Abschnitt (nur zentrieren) ===== */
+section p strong {
+    color: #0a6;
+}
+
+/* ===== 6) Formular: einfache Einspalte ===== */
+form {
+    background: #fff;
+    padding: 8px;
+}
+
+label {
+    font-weight: bold;
+}
+
+/* Eingabefelder untereinander, ganze Breite */
+input[type="text"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin: 6px 0 12px 0;
+    border: 1px solid #ccc;
+    background: #fff;
+}
+
+/* Checkbox leicht nach rechts mit Label in einer Zeile */
+input[type="checkbox"] {
+    margin-right: 6px;
+}
+
+/* Button simpel */
+button {
+    padding: 8px 12px;
+    background: #0a6;
+    color: #fff;
+    border: 1px solid #0a6;
+    border-radius: 5px;
+}
+
+
+/* ===== 7) Footer ===== */
+footer {
+    
+    gap: 30px;
+    display: flex; /*in einer Zeile*/
+    text-align: center;/*mittig im Block, horizontal.*/
+    color: #555;
+    margin: 20px 0;
+    justify-content: center;/*das wichtigste: Zentriert alle Footer-Elemente horizontal in der Mitte der Seite.*/
+    align-items: center; /*Zentriert alle Footer-Elemente vertikal (in der Zeile).*/
+}
+
+footer a {
+    color: #0a6;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}

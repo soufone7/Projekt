@@ -1,0 +1,20 @@
+1. ALTER TABLE
+
+Ändert eine bestehende Tabelle, um neue Einschränkungen hinzuzufügen.
+
+2. ADD CONSTRAINT
+
+Fügt einer Tabelle eine neue Regel (Constraint) hinzu.
+
+3. UNIQUE
+
+Stellt sicher, dass ein Wert in einer Spalte nicht doppelt vorkommt.
+→ verwendet für: gericht.name
+
+4. FOREIGN KEY
+
+Erzwingt die referentielle Integrität zwischen Tabellen.
+
+5. REFERENCES
+
+Gibt an, auf welche Tabelle und Spalte sich ein FOREIGN KEY bezieht.
