@@ -1,0 +1,42 @@
+[
+  {
+    "CLASSNAME": "Payment",
+    "INSTANCE": {
+      "incomingInterest": 0.02,
+      "outgoingInterest": 0.1,
+      "date": "10.11.2024",
+      "amount": 100.0,
+      "description": "1. Payment"
+    }
+  },
+  {
+    "CLASSNAME": "IncomingTransfer",
+    "INSTANCE": {
+      "sender": "Ronaldo",
+      "recipient": "Messi",
+      "date": "17.01.2007",
+      "amount": 15.0,
+      "description": "Miete"
+    }
+  },
+  {
+    "CLASSNAME": "OutgoingTransfer",
+    "INSTANCE": {
+      "sender": "Ronaldo",
+      "recipient": "SouF",
+      "date": "18.07.2007",
+      "amount": 20.0,
+      "description": "kauf"
+    }
+  },
+  {
+    "CLASSNAME": "Payment",
+    "INSTANCE": {
+      "incomingInterest": 0.02,
+      "outgoingInterest": 0.1,
+      "date": "19.11.2024",
+      "amount": 200.0,
+      "description": "4.Payment"
+    }
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "CLASSNAME": "OutgoingTransfer",
+    "INSTANCE": {
+      "sender": "Souf",
+      "recipient": "Alex",
+      "date": "3.11.2025",
+      "amount": 45.0,
+      "description": "Vinted Überweisung"
+    }
+  },
+  {
+    "CLASSNAME": "IncomingTransfer",
+    "INSTANCE": {
+      "sender": "Aldi",
+      "recipient": "Souf",
+      "date": "3.11.2025",
+      "amount": 789.0,
+      "description": "Gehalt"
+    }
+  }
+]

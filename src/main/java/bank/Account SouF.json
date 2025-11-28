@@ -1,0 +1,32 @@
+[
+  {
+    "CLASSNAME": "Payment",
+    "INSTANCE": {
+      "incomingInterest": 0.02,
+      "outgoingInterest": 0.1,
+      "date": "12.11.1884",
+      "amount": 200.0,
+      "description": "2. Payment"
+    }
+  },
+  {
+    "CLASSNAME": "IncomingTransfer",
+    "INSTANCE": {
+      "sender": "SouF",
+      "recipient": "Ronaldo",
+      "date": "15.01.2007",
+      "amount": 100.0,
+      "description": "GEhalt"
+    }
+  },
+  {
+    "CLASSNAME": "OutgoingTransfer",
+    "INSTANCE": {
+      "sender": "SouF",
+      "recipient": "Messi",
+      "date": "19.07.2007",
+      "amount": 25.0,
+      "description": "Spiel"
+    }
+  }
+]

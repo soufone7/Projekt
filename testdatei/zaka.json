@@ -1,0 +1,32 @@
+[
+  {
+    "CLASSNAME": "Payment",
+    "INSTANCE": {
+      "incomingInterest": 0.7,
+      "outgoingInterest": 0.7,
+      "date": "6.12.2025",
+      "amount": 400.0,
+      "description": "Asos"
+    }
+  },
+  {
+    "CLASSNAME": "OutgoingTransfer",
+    "INSTANCE": {
+      "sender": "Souf",
+      "recipient": "Alex",
+      "date": "3.11.2025",
+      "amount": 45.0,
+      "description": "Vinted Überweisung"
+    }
+  },
+  {
+    "CLASSNAME": "IncomingTransfer",
+    "INSTANCE": {
+      "sender": "Aldi",
+      "recipient": "Souf",
+      "date": "3.11.2025",
+      "amount": 789.0,
+      "description": "Gehalt"
+    }
+  }
+]
